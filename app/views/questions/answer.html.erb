@@ -1,2 +1,7 @@
-<h1>Questions#answer</h1>
-<p>Find me in app/views/questions/answer.html.erb</p>
+<div class="container">
+  <h1>Coach Says:</h1>
+  <div>
+    <h3><%=@answer%></h3>
+    <%= link_to 'question?', '/ask' %>
+  </div>
+</div>

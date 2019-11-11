@@ -1,3 +1,16 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  display: flex;
+  font-family: 'Yeon Sung', cursive;
+  justify-content: space-around;
+  margin: 50px;
+  font-weight: lighter;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
